@@ -1,24 +1,20 @@
 body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    
-    
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .container {
-    position: relative;
-    background-color: white;
-    padding: 10px;
-    display: grid;
-    grid-template-columns: 500px 550px;
-    align-items: center;
-    justify-content: center;
-    
+  position: relative;
+  background-color: white;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 500px 550px;
+  align-items: center;
+  justify-content: center;
 }
-.red {
-    background-color: red;
-    padding: 10px;   
-    
+.left_side {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 .purple {
     background-color: purple;
@@ -39,6 +35,31 @@ body {
 .green {
     background-color: green;
     padding: 10px; 
-    
+}   
+.right_side {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
 }
 
+.red {
+  background-color: red;
+  padding: 10px;
+}
+.purple {
+  background-color: purple;
+  padding: 10px;
+}
+.yellow {
+  background-color: yellow;
+  padding: 10px;
+}
+.blue {
+  background-color: blue;
+  padding: 10px;
+  /* grid-column:
+     grid-row: 3/-1; */
+}
+.green {
+  background-color: green;
+  padding: 10px;
+}
